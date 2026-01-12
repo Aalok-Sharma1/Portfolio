@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Aalok Sharma | Full-Stack Java Developer</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+  <link rel="stylesheet" href="assets/css/style.css"/>
+
+  <!-- Preload hero image for LCP -->
+  <link rel="preload"  href="assets/img/self3.jpg" as="image"/>
+</head>
+
+<body data-theme="light">
+  <!-- Canvas for particles -->
+  <canvas id="particle-canvas"></canvas>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#home" class="logo">Aalok.</a>
+
+      <button class="nav__toggle" aria-label="open navigation">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button id="theme-toggle" class="theme-btn" aria-label="toggle dark mode">
+        <i class="fa-solid fa-moon"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- HOME -->
+  <section id="home" class="home">
+    <div class="container home__grid">
+      <div class="home__content">
+        <h1 class="home__title">
+  Hi, I'm <strong class="gradient-text" data-typewriter>Aalok Sharma</strong>
+</h1>
+        <p class="home__role">Full-Stack Java Developer</p>
+        <p class="home__bio">
+          Final-year MCA student passionate about scalable back-end systems & clean UIs.
+        </p>
+
+        <div class="home__social">
+          <a href="https://linkedin.com/in/aaloksh1" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/Aalok-Sharma1" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://instagram.com/aaloksharma1137" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+
+        <div class="home__actions">
+          <a href="https://docs.google.com/document/d/1xLSO1YF1OINm61tHwG0cF7xaxA_o0LcN/view"
+   class="btn btn--primary"
+   target="_blank"
+   rel="noopener">
+   Download CV
+</a>
+
+          <a href="#about" class="btn btn--ghost">About me <i class="fa-solid fa-user"></i></a>
+        </div>
+      </div>
+
+      <div class="home__img">
+        <figure class="avatar">
+          <img src="assets/img/self3.jpg" alt="Aalok Sharma portrait"/>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+    <div class="container about__grid">
+      <div class="about__content">
+        <h2 class="section__title">About <span class="gradient-text">Me</span></h2>
+
+        <p>
+          &#128075; Hi Everyone, I'm <strong>Aalok Sharma</strong>, a Passionate Java Full-Stack Developer from India &#127470;&#127475;.
+          I am focused on building scalable, real-world web applications and love creating clean, efficient, and user-friendly software solutions.
+        </p>
+
+        <p>
+          I have a strong interest in backend development and full-stack technologies, and I enjoy turning ideas into functional applications.
+        </p>
+
+        <p>
+          <strong>Key Skills:</strong><br>
+          I specialize in Java Full-Stack Development with hands-on experience in HTML, CSS, JavaScript, Bootstrap, and modern frontend design principles.<br>
+          For backend development, I work with Core Java, Advanced Java, JSP, JDBC, Spring Boot, and RESTful APIs.<br>
+          I have experience working with databases like MySQL and PostgreSQL.<br>
+          
+        </p>
+
+        <a href="https://docs.google.com/document/d/1xLSO1YF1OINm61tHwG0cF7xaxA_o0LcN/view"
+   class="btn btn--primary"
+   target="_blank"
+   rel="noopener">
+   Download CV
+</a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="education">
+    <div class="container">
+      <h2 class="section__title">My <span class="gradient-text">Education</span></h2>
+
+      <div class="education__grid">
+        <article class="education__card" data-percent="89">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <h3>10<sup>th</sup></h3>
+          <p>G.N Chandsarkar Balmohan HS, Jalgaon</p>
+          <span class="percent">89%</span>
+        </article>
+
+        <article class="education__card" data-percent="68">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <h3>12<sup>th</sup></h3>
+          <p>Swami Vivekanand Jr. College, Jalgaon</p>
+          <span class="percent">68.31%</span>
+        </article>
+
+        <article class="education__card" data-percent="9">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <h3>Integrated-MCA</h3>
+          <p>KCE’s IMR, Jalgaon (Final Year)</p>
+          <span class="percent">9.08 CGPA</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO  (forced dark) -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <h2 class="section__title">Latest <span class="gradient-text">Projects</span></h2>
+
+      <div class="portfolio__grid">
+        <article class="portfolio__card">
+          <img src="assets/img/form.png" alt="Employee Management System"/>
+          <div class="portfolio__overlay">
+            <h4>Employee Management System</h4>
+            <p>JSP · JDBC · PostgreSQL</p>
+            <a href="https://github.com/Aalok-Sharma1/Employee_Management" target="_blank" aria-label="View project">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </article>
+
+        <article class="portfolio__card">
+          <img src="assets/img/rd.jpg" alt="Recurring Deposit System"/>
+          <div class="portfolio__overlay">
+            <h4>Recurring Deposit System</h4>
+            <p>Java · Spring Boot · REST</p>
+            <a href="#" target="_blank" aria-label="View project">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <div class="container contact__grid">
+      <div class="contact__info">
+        <h2 class="section__title">Contact <span class="gradient-text">Me</span></h2>
+
+        <a href="mailto:aaloksharma2892001@gmail.com" class="contact__link">
+          <i class="fa-solid fa-envelope"></i> aaloksharma2892001@gmail.com
+        </a>
+        <a href="tel:+919545337977" class="contact__link">
+          <i class="fa-solid fa-phone"></i> +91 95453 37977
+        </a>
+        <p class="contact__link">
+          <i class="fa-solid fa-location-dot"></i> Jalgaon, MH – 425001
+        </p>
+      </div>
+
+      <form class="contact__form" action="https://formspree.io/f/your-id" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required/>
+        <input type="email" name="email" placeholder="Email Address" required/>
+        <input type="tel" name="phone" placeholder="Phone (optional)"/>
+        <input type="text" name="subject" placeholder="Subject"/>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn btn--primary">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>&copy; <span id="year"></span> Aalok Sharma. Crafted with ❤️</p>
+      <a href="#home" aria-label="Back to top" class="footer__top">
+        <i class="fa-solid fa-arrow-up"></i>
+      </a>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
