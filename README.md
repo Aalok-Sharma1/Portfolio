@@ -9,7 +9,7 @@ Built to create a strong online presence for recruiters and collaborators.
 
 ## 🖼️ Portfolio Preview
 
-![Portfolio Home Page](assets/images/portfolio-home.png)
+![Portfolio Home Page](home.png)
 
 ✨ Features
 
